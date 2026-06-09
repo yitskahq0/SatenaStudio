@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import ProjectPage from "./Pages/ProjectPage";
 import ProjectDetail from "./Pages/ProjectDetail";
 import About from "./Pages/About";
+import Estimator from "./Pages/Estimator";
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/projects" element={<ProjectPage />} />
             <Route path="/projects/:slug" element={<ProjectDetail />} />
             <Route path="/about" element={<About />} />
+            <Route path="/kalkulator" element={<Estimator />} />
           </Routes>
         </main>
         <Footer />

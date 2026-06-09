@@ -83,6 +83,7 @@ export default function Navbar() {
               { to: "/", label: "Beranda" },
               { to: "/projects", label: "Proyek" },
               { to: "/about", label: "Tentang Kami" },
+              { to: "/kalkulator", label: "Estimasi Biaya" },
             ].map(({ to, label }) => (
               <li key={to}>
                 <Link to={to} className={linkClass(to)}>{label}</Link>
@@ -145,6 +146,7 @@ export default function Navbar() {
               { to: "/", label: "Beranda" },
               { to: "/projects", label: "Proyek" },
               { to: "/about", label: "Tentang Kami" },
+              { to: "/kalkulator", label: "Estimasi Biaya" },
             ].map(({ to, label }) => (
               <Link
                 key={to}

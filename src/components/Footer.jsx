@@ -7,6 +7,7 @@ const footerLinks = [
   { to: "/", label: "Beranda" },
   { to: "/projects", label: "Proyek Kami" },
   { to: "/about", label: "Tentang Kami" },
+  { to: "/kalkulator", label: "Estimasi Biaya" },
 ];
 
 const services = [
