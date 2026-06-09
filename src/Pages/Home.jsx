@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Ads1 from "../components/Ads1";
 import Ads2 from "../components/Ads2";
 import Project from "../components/Project";
